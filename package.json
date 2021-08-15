@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "nodemon",
-    "git": "git add . && git commit -m \"Update\" && git push origin HEAD:stable",
+    "git": "git add . && git commit -m \"Update\" && git push origin stable",
     "changeBranch": "python ./src/python/changeBranch.py"
   },
   "repository": {
