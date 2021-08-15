@@ -1,0 +1,30 @@
+{
+  "name": "lapsify-access",
+  "version": "0.0.1-alpha-0",
+  "description": "LapsIfy Access. A fork from Unify Access open source.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon",
+    "git": "git add . && git commit -m \"Update\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LapsTimeOFF/LapsIfy-Access.git"
+  },
+  "keywords": [
+    "Unify",
+    "Access",
+    "Unify",
+    "Access",
+    "LapsIfy"
+  ],
+  "author": "LapsTimeOFF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LapsTimeOFF/LapsIfy-Access/issues"
+  },
+  "homepage": "https://github.com/LapsTimeOFF/LapsIfy-Access#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
