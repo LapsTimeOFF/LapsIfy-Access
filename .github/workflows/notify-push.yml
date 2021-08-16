@@ -1,0 +1,10 @@
+name: Notify Pushs
+on: [push]
+jobs:
+  Check-all-files:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "echo New push"
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}

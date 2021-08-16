@@ -1,11 +1,12 @@
 {
   "name": "lapsify-access",
-  "version": "0.0.1-alpha-0",
+  "version": "0.0.1-alpha-1",
   "description": "LapsIfy Access. A fork from Unify Access open source.",
-  "main": "src/index.js",
+  "main": "src/js/index.js",
   "scripts": {
     "test": "nodemon",
-    "git": "git add . && git commit -m \"Update\" && git push"
+    "git": "git add . && git commit -m \"Update\" && git push origin stable",
+    "changeBranch": "python ./src/python/changeBranch.py"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,12 @@
   },
   "homepage": "https://github.com/LapsTimeOFF/LapsIfy-Access#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
   }
 }
